@@ -1,0 +1,16 @@
+// functions3.rs
+// Make me compile! Execute `rustlings hint functions3` for hints :)
+
+
+
+fn call_me() {
+    let num:i32= 7;
+    for i in 0..num {
+        println!("Ring! Call number {}", i + 1);
+    }
+}
+
+fn main() {
+    call_me();
+}
+
